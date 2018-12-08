@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        include head.pug
+    body
+        nav
+        header
+            h1 Hoja Resumen Ruby
+        section.test
+            .container
+                <pre>
+                    <code class="language-ruby">
+                        | file = File.open('sample.txt', 'r')
+                        | data = file.readlines
+                        | file.close
+                    </code>                
+                </pre>
+
+
+        include scripts.pug
